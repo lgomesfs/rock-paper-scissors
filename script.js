@@ -77,7 +77,7 @@ function playAgain() {
 
     const reset = document.createElement('button');
     reset.textContent = "Reset";
-    reset.setAttribute("style", "padding: 5px 15px; border-radius: 5px; border-style: none; background-color: #778899; color: #FFFFF0");
+    reset.setAttribute("style", "padding: 10px 25px; border-radius: 5px; border-style: none; background-color: #778899; color: #FFFFF0; font-size: 25px;");
     game.appendChild(reset);
     reset.addEventListener("click", () => {
         game.removeChild(reset);
